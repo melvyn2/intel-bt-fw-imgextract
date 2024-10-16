@@ -1,8 +1,6 @@
-#![feature(array_chunks)]
-
 use std::env::args;
 use std::fs::{create_dir, File};
-use std::io::{ErrorKind, Read, Write};
+use std::io::{ErrorKind, Read};
 use std::path::Path;
 
 const START: &[u8; 20] =
